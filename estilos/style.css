@@ -32,3 +32,29 @@ section#telefone {
     background: url('../imagens/frame-iphone.png') no-repeat;
     transform: translate(-50%, -50%);
 }
+#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 266px;
+    height: 472px;
+}
+
+#icons{
+    text-align: right;
+}
+
+#icons img {
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#icons img:hover {
+    border: 2px solid black;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s, border 1s;
+}
